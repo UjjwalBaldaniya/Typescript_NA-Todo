@@ -1,7 +1,9 @@
 "use client";
 
-import { useTodos } from "@/store/todos";
 import { useSearchParams } from "next/navigation";
+
+import { useTodos } from "@/store/todos";
+
 import styles from "../styles/todos.module.css";
 
 const Todos = () => {
