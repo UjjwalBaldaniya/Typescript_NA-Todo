@@ -1,7 +1,9 @@
 "use client";
 
-import { useTodos } from "@/store/todos";
 import { FormEvent, useState } from "react";
+
+import { useTodos } from "@/store/todos";
+
 import styles from "../styles/addTodo.module.css";
 
 const AddTodo = () => {
